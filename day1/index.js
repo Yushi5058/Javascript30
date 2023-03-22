@@ -8,5 +8,4 @@ function playSound(e) {
     audio.play();
 }
 
-const keys = document.querySelectorAll('.keys');
 window.addEventListener('keydown', playSound);
