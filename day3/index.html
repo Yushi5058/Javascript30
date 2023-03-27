@@ -60,7 +60,7 @@ h1 {
 
         function handleUpdate() {
             const suffix = this.dataset.sizing || '';
-            document.documentElement.setProperty(`--${thisname}`, this.value + suffix);
+            document.documentElement.style.setProperty(`--${thisname}`, this.value + suffix);
         }
 
         inputs.forEach(input => input.addEventListener('change', handleUpdate));
