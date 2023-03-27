@@ -9,11 +9,11 @@
         <h1>Update CSS variables with <span>JS</span></h1>
         <div class="controls">
             <p>Spacing:</p>
-            <input type="range" name="spacing" min="0" max="100" data-sizing="px">
+            <input type="range" name="spacing" min="0" max="100" value="10" data-sizing="px">
             <p>Blur:</p>
-            <input type="range" name="blur" min="0" max="100" data-sizing="px">
+            <input type="range" name="blur" min="0" max="100" value="10" data-sizing="px">
             <p>Base Color:</p>
-            <input type="color" name="base-color" class="color-picker">
+            <input type="color" name="base-color" value="#ffff" class="color-picker">
         </div>
         <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="landscape mountain">
     <style>
@@ -49,6 +49,9 @@ img {
     padding: var(--spacing);
     filter: blur(var(--blur));
     background-color: var(--color);
+}
+h1 {
+    color: var(--color);
 }
     </style>
     </body>
