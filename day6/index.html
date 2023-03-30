@@ -35,7 +35,8 @@ return place.city.matches(regex) || place.state.matches(regex);
 }
 
 function displayMatches() {
-    console.log(this.value);
+    const matchArray = findMatches(this.value, cities);
+    console.log(matchArray);
 }
 
 const searchInput = document.querySelector('.search');
