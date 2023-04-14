@@ -72,6 +72,13 @@
 
     // timing
 
+    console.time('Fetching some data');
+    fetch('https://api.github.com/users/yushi5058')
+        .then(data => data.json())
+        .then(data => {
+            console.timeEnd('Fetching some data');
+        })
+
   </script>
 </body>
 </html>
