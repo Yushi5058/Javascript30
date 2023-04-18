@@ -29,18 +29,15 @@
     console.log(players, team);
 
     // You might think we can just do something like this:
+    team[5] = 'Lux';
 
     // however what happens when we update that array?
+        // it will always go back to the reference which is not
+    // the same as strings, numbers and booleans.
 
-    // now here is the problem!
-
-    // oh no - we have edited the original array too!
-
-    // Why? It's because that is an array reference, not an array copy. They both point to the same array!
-
-    // So, how do we fix this? We take a copy instead!
-
-    // one way
+        // make a copy instead 
+    const team2 = players.slice();
+    const team3 = [].concat(players);
 
     // or create a new array and concat the old one in
 
