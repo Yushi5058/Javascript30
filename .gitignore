@@ -2,6 +2,7 @@
 /node_modules
 /public/assets
 /dist
+package-lock.json
 
 
 # Default rules for other technologies
