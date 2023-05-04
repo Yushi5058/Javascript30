@@ -24,10 +24,10 @@ about what's yet to come in the future in my self-taught learning journey.
 There is no live preview.
 
 *This repository is meant for educational purposes only. The original one
-is [here](https://github.com/wesbos/JavaScript30/)*
+is [here](https://github.com/wesbos/JavaScript30/).*
 
 
 A huge thanks to Websos for making this learning resource accessible for
 everyone willing to learn and curious about javascript.
 
-You can follow him in his Youtube [Channel](https://www.youtube.com/@WesBos)
+You can follow him in his [Youtube Channel](https://www.youtube.com/@WesBos).
